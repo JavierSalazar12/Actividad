@@ -29,15 +29,7 @@ void registrar(){
         aux2->sig = aux;
     }
 }
-void mostrar(){
-    aux=cab;
-    while(aux!=NULL){
-        cout<<"Nombre: "<<aux->nombre<<endl;
-        cout<<"Identificación: "<<aux->id<<endl;
-        cout<<"No. Destino: "<<aux->destino<<endl;
-        aux = aux->sig;
-    }
-}
+
 
 int main(){
     int opcion;
